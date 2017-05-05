@@ -3,7 +3,7 @@ library(ggforce)
 library(tidyverse)
 library(viridis)
 
-n <- 100
+n <- 1000
 X <- 100
 Y <- 100
 r <- 1
@@ -58,4 +58,4 @@ p <- ggplot() +
   coord_equal() +
   theme(plot.margin = unit(c(-1, 0, -2, -1), "mm"))
 
-ggsave("plots/plot002.png", p, width = 30, height = 30, units = "cm", dpi = 600)
+ggsave("plots/plot003.png", p, width = 30, height = 30, units = "cm", dpi = 600)
